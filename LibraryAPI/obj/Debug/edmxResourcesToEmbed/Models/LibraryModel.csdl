@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibraryManagementModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BookIncomes">
+    <Key>
+      <PropertyRef Name="book_incomes_id" />
+    </Key>
+    <Property Name="book_incomes_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+    <Property Name="book_id" Nullable="false" Type="Int32" />
+    <Property Name="quantity" Nullable="false" Type="Int32" />
+    <Property Name="creation_date" Nullable="false" Precision="3" Type="DateTime" />
+    <Property Name="creation_usr" Nullable="false" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Books">
+    <Key>
+      <PropertyRef Name="book_id" />
+    </Key>
+    <Property Name="book_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="author" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="publish_date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="editorial" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="edicion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="best_seller" Type="Boolean" Nullable="false" />
+    <Property Name="category_id" Type="Int32" Nullable="false" />
+    <Property Name="creation_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="creation_user" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Categories" Relationship="Self.FK_Book_Category" FromRole="Books" ToRole="Categories" />
+    <NavigationProperty Name="BorrowedBooks" Relationship="LibraryManagementModel.FK_BorrowedBooks_Books" FromRole="Books" ToRole="BorrowedBooks" />
+    <NavigationProperty Name="Stock" Relationship="LibraryManagementModel.FK_Stock_Books" FromRole="Books" ToRole="Stock" />
+  </EntityType>
+  <EntityType Name="BorrowedBooks">
+    <Key>
+      <PropertyRef Name="borrowed_book_id" />
+    </Key>
+    <Property Name="borrowed_book_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="book_id" Type="Int32" Nullable="false" />
+    <Property Name="user_id" Type="Int32" Nullable="false" />
+    <Property Name="borrowedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="returnedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ontime" Type="Boolean" Nullable="false" />
+    <Property Name="status" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_BorrowedBooks_Users" FromRole="BorrowedBooks" ToRole="Users" />
+    <NavigationProperty Name="Books" Relationship="LibraryManagementModel.FK_BorrowedBooks_Books" FromRole="BorrowedBooks" ToRole="Books" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="category_id" />
+    </Key>
+    <Property Name="category_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="desctiption" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="creation_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="creation_user" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Books" Relationship="Self.FK_Book_Category" FromRole="Categories" ToRole="Books" />
+  </EntityType>
+  <EntityType Name="Profiles">
+    <Key>
+      <PropertyRef Name="profile_id" />
+    </Key>
+    <Property Name="profile_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_Profiles" FromRole="Profiles" ToRole="Users" />
+    <NavigationProperty Name="Views" Relationship="Self.FK_Views_Profiles" FromRole="Profiles" ToRole="Views" />
+  </EntityType>
+  <EntityType Name="Stock">
+    <Key>
+      <PropertyRef Name="stock_id" />
+    </Key>
+    <Property Name="stock_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" Type="Int32" />
+    <Property Name="book_id" Nullable="false" Type="Int32" />
+    <Property Name="quantity" Nullable="false" Type="Int32" />
+    <Property Name="onhand" Nullable="false" Type="Int32" />
+    <NavigationProperty Name="Books" Relationship="LibraryManagementModel.FK_Stock_Books" FromRole="Stock" ToRole="Books" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="profile_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="BorrowedBooks" Relationship="Self.FK_BorrowedBooks_Users" FromRole="Users" ToRole="BorrowedBooks" />
+    <NavigationProperty Name="Profiles" Relationship="Self.FK_Users_Profiles" FromRole="Users" ToRole="Profiles" />
+  </EntityType>
+  <EntityType Name="Views">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="profile_id" Type="Int32" Nullable="false" />
+    <Property Name="views1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Profiles" Relationship="Self.FK_Views_Profiles" FromRole="Views" ToRole="Profiles" />
+  </EntityType>
+  <Association Name="FK_Book_Category">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="1" />
+    <End Role="Books" Type="Self.Books" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="category_id" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="category_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BorrowedBooks_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="BorrowedBooks" Type="Self.BorrowedBooks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="BorrowedBooks">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Profiles">
+    <End Role="Profiles" Type="Self.Profiles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profiles">
+        <PropertyRef Name="profile_id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="profile_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Views_Profiles">
+    <End Role="Profiles" Type="Self.Profiles" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Views" Type="Self.Views" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Profiles">
+        <PropertyRef Name="profile_id" />
+      </Principal>
+      <Dependent Role="Views">
+        <PropertyRef Name="profile_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LibraryManagementEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BookIncomes" EntityType="Self.BookIncomes" />
+    <EntitySet Name="Books" EntityType="Self.Books" />
+    <EntitySet Name="BorrowedBooks" EntityType="Self.BorrowedBooks" />
+    <EntitySet Name="Categories" EntityType="Self.Categories" />
+    <EntitySet Name="Profiles" EntityType="Self.Profiles" />
+    <EntitySet Name="Stock" EntityType="Self.Stock" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <EntitySet Name="Views" EntityType="Self.Views" />
+    <AssociationSet Name="FK_Book_Category" Association="Self.FK_Book_Category">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BorrowedBooks_Users" Association="Self.FK_BorrowedBooks_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="BorrowedBooks" EntitySet="BorrowedBooks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Profiles" Association="Self.FK_Users_Profiles">
+      <End Role="Profiles" EntitySet="Profiles" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Views_Profiles" Association="Self.FK_Views_Profiles">
+      <End Role="Profiles" EntitySet="Profiles" />
+      <End Role="Views" EntitySet="Views" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BorrowedBooks_Books" Association="LibraryManagementModel.FK_BorrowedBooks_Books">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="BorrowedBooks" EntitySet="BorrowedBooks" />
+    </AssociationSet>
+    <EntitySet Name="sysdiagrams" EntityType="LibraryManagementModel.sysdiagrams" />
+    <AssociationSet Name="FK_Stock_Books" Association="LibraryManagementModel.FK_Stock_Books">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="Stock" EntitySet="Stock" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_BorrowedBooks_Books">
+    <End Type="LibraryManagementModel.Books" Role="Books" Multiplicity="1" />
+    <End Type="LibraryManagementModel.BorrowedBooks" Role="BorrowedBooks" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="book_id" />
+      </Principal>
+      <Dependent Role="BorrowedBooks">
+        <PropertyRef Name="book_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Stock_Books">
+    <End Type="LibraryManagementModel.Books" Role="Books" Multiplicity="1" />
+    <End Type="LibraryManagementModel.Stock" Role="Stock" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="book_id" />
+      </Principal>
+      <Dependent Role="Stock">
+        <PropertyRef Name="book_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

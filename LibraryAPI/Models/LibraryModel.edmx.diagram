@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="549fceff68614f0aadce0ac4669dfce6" Name="Diagram1" ZoomLevel="70">
+        <EntityTypeShape EntityType="LibraryManagementModel.BookIncomes" PointX="2.625" PointY="1.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Books" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.BorrowedBooks" Width="1.5" PointX="9" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Categories" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Profiles" Width="1.5" PointX="11.375" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Stock" PointX="5.25" PointY="6.125" Width="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Users" Width="1.5" PointX="13.625" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryManagementModel.Views" Width="1.5" PointX="13.625" PointY="6.25" IsExpanded="true" />
+        <AssociationConnector Association="LibraryManagementModel.FK_Book_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK_BorrowedBooks_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK_Users_Profiles" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK_Views_Profiles" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryManagementModel.FK_BorrowedBooks_Books" />
+        <EntityTypeShape EntityType="LibraryManagementModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" />
+        <AssociationConnector Association="LibraryManagementModel.FK_Stock_Books" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

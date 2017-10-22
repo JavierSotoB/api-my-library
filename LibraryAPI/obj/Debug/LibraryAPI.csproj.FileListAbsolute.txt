@@ -1,0 +1,155 @@
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\ApplicationInsights.config
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\csc.exe
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\csc.exe.config
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\csc.rsp
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\csi.exe
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\csi.exe.config
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\csi.rsp
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Console.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Security.Claims.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\vbc.exe
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\vbc.exe.config
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\vbc.rsp
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Antlr3.Runtime.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\EntityFramework.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Newtonsoft.Json.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Helpers.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Http.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Mvc.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Optimization.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Razor.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\WebGrease.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\EntityFramework.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Newtonsoft.Json.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Helpers.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Http.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Mvc.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Optimization.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.Razor.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.csproj.CoreCompileInputs.cache
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.dll
+C:\Users\Javier Soto\source\repos\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.pdb
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\ApplicationInsights.config
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Antlr3.Runtime.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\EntityFramework.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Newtonsoft.Json.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Cors.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Helpers.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Http.Cors.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Http.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Mvc.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Optimization.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Razor.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\WebGrease.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\EntityFramework.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Http.Cors.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Newtonsoft.Json.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Helpers.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Http.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Mvc.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Optimization.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.Razor.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.csproj.CoreCompileInputs.cache
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.pdb
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\LibraryAPI.dll.config
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\LibraryAPI.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\LibraryAPI.pdb
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Javier Soto\Documents\Visual Studio 2017\Projects\LibraryAPI\LibraryAPI\obj\Debug\LibraryAPI.csprojResolveAssemblyReference.cache
